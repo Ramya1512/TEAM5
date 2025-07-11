@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #fafafa;
+}
+
+.palette {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.color {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.color:hover {
+  transform: scale(1.08);
+  opacity: 0.85;
+}
